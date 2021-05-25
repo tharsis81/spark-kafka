@@ -15,7 +15,7 @@ options = {
    "subscribe": "production-playerblob-v1-enriched",
    "kafka.sasl.mechanism": "SCRAM-SHA-512",
    "kafka.security.protocol" : "SASL_PLAINTEXT",
-   "kafka.sasl.jaas.config": 'org.apache.kafka.common.security.scram.ScramLoginModule required username="service-analytics-clickhouse-development" password="pv2NHQz2M3l2";',
+   "kafka.sasl.jaas.config": 'org.apache.kafka.common.security.scram.ScramLoginModule required username="service-analytics-clickhouse-development" password="XXXXXXX";',
    "failOnDataLoss": "false"
 }
 
