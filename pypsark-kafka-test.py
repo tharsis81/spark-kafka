@@ -6,7 +6,7 @@ os.environ['PYSPARK_SUBMIT_ARGS'] = '--packages org.apache.spark:spark-sql-kafka
 from pyspark import SparkContext
 from pyspark.sql import SparkSession
 from pyspark.streaming import StreamingContext
-import time
+#import time
 
 #all configs in options 
 options = {
